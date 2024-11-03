@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="myScript.js" defer></script>
+    <title>TODO Lista</title>
+</head>
+<body>
+    <div class="container">
+        <h1>TODO Lista</h1>
+        <form id="todoForm">
+            <input type="text" id="taskInput" placeholder="Dodaj nowe zadanie..." required minlength="3" maxlength="255">
+            <input type="date" id="taskDate">
+            <input type="text" id="searchInput" placeholder="Wyszukaj zadania...">
+            <button type="submit">Dodaj</button>
+            <p class="error" id="errorMessage" style="display:none;">Wprowadź zadanie o długości od 3 do 255 znaków.</p>
+            <p class="error" id="dateErrorMessage" style="display:none;">Data musi być w przyszłości.</p>
+        </form>
+        <ul id="todoList"></ul>
+    </div>
+</body>
+</html>
