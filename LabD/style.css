@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0fff0; /* Jasna zieleń */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #2e8b57; /* Zieleń morska */
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+#weather-app {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#date-time {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2e8b57; /* Zieleń morska */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #256d46; /* Ciemniejsza zieleń morska */
+}
+
+#current-weather, #forecast {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#current-weather h2, #forecast h2 {
+    margin-top: 0;
+    color: #2e8b57; /* Zieleń morska */
+}
+
+.weather-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.weather-icon {
+    max-width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.weather-details {
+    flex-grow: 1;
+}
